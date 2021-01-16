@@ -20,5 +20,5 @@ if(port == "" || port == null){
   port = 5000;
 }
 app.listen(port, function(){
-  console.log("en güncel port numarasi : " + port);
+  console.log("port numarasi : " + port);
 });
