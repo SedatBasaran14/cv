@@ -30,7 +30,7 @@
 
 body {
   font-family: metroprg;
-  position: relative; 
+  position: relative;
 }
 
 .arkaplan {
@@ -223,5 +223,13 @@ body {
 
   .navbar-brand span {
     display: inline;
+  }
+
+  .tarih {
+    margin-top: -2.5rem;
+    margin-bottom: 4rem;
+  }
+  .icon-border {
+  margin-right:0.1rem;
   }
 }
