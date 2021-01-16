@@ -1,0 +1,227 @@
+@font-face {
+  font-family: metropsb;
+  src: url("../fonts/Metropolis-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metroprg;
+  src: url("../fonts/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropbl;
+  src: url("../fonts/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metroprgi;
+  src: url("../fonts/Metropolis-RegularItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metroprmd;
+  src: url("../fonts/Metropolis-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: multireg;
+  src: url("../fonts/Muli-Regular.ttf") format("opentype");
+}
+
+body {
+  font-family: metroprg;
+  position: relative; 
+}
+
+.arkaplan {
+  background: #bd5d38;
+}
+
+.fixed-top {
+  right: auto;
+  left: 0;
+  width: 17rem;
+  height: 100%;
+  text-align: center;
+}
+
+.navbar .container-fluid {
+  display: block;
+}
+
+.navbar-nav {
+  display: block;
+  font-family: metropbl;
+  margin: 0 auto;
+}
+
+.navbar-brand img {
+  display: inline;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 0.6rem solid #CA7D60;
+  margin-bottom: 1rem;
+}
+
+.navbar-brand span {
+  display: none;
+}
+
+.ortaksayfa {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: 19rem;
+}
+
+.ortaksayfa h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.ortaksayfa h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.ortaksayfa h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.ortaksayfa p {
+  margin-top: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.ortaksayfa .tarih {
+  color: #bd5d38;
+}
+
+.ortaksayfa:last-child{
+	margin-bottom:20rem;
+}
+
+.about {
+  padding-top: 10rem;
+  margin-right: 2rem;
+  padding-bottom: 10rem;
+}
+
+.baslik-fontu {
+  font-family: Saira Extra Condensed;
+}
+
+.baslik h1 {
+  font-size: 3rem;
+}
+
+.about .baslik h1 {
+  font-weight: 700;
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+  line-height: 6rem;
+}
+
+.color2 {
+  color: #BD5D38;
+}
+
+.color1 {
+  color: #343A40;
+}
+
+.color3 {
+  color: #6C757D;
+}
+
+.adres-yazisi {
+  margin-top: 2.8rem;
+  font-family: multireg;
+  font-size: 1.2rem;
+}
+
+.address {
+  margin-top: 0;
+}
+
+.adress span {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.icon-border {
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #495057;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 1.3rem;
+  margin-right: 1.6rem;
+}
+
+.icon-border:hover {
+  background-color: #bd5d38;
+}
+
+.iconlar {
+  margin-top: 3rem;
+}
+
+.dev-icons {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.spec-font {
+  font-size: 1rem;
+
+  line-height: 1.5;
+
+}
+
+
+
+@media (max-width: 768px) {
+  .fixed-top {
+    right: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+
+  .ortaksayfa {
+    margin-left: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .about {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+
+  .navbar .container-fluid {
+    display: flex;
+  }
+
+  .navbar-nav {
+    display: flex;
+    margin: auto auto auto 0;
+  }
+
+  .navbar-brand img {
+    display: none;
+  }
+
+  .navbar-brand span {
+    display: inline;
+  }
+}
